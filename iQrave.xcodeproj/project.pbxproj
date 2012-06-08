@@ -25,6 +25,11 @@
 		F951573E15819BD500FBFBF0 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = F951573915819BD500FBFBF0 /* zbar-help.html */; };
 		F951573F15819BD500FBFBF0 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = F951573A15819BD500FBFBF0 /* zbar-helpicons.png */; };
 		F951574015819BD500FBFBF0 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = F951573B15819BD500FBFBF0 /* zbar-samples.png */; };
+		F951574215819CD000FBFBF0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574115819CD000FBFBF0 /* AVFoundation.framework */; };
+		F951574415819CD600FBFBF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574315819CD600FBFBF0 /* CoreMedia.framework */; };
+		F951574615819CDD00FBFBF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574515819CDD00FBFBF0 /* CoreVideo.framework */; };
+		F951574815819CE300FBFBF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574715819CE300FBFBF0 /* QuartzCore.framework */; };
+		F951574A15819CF400FBFBF0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574915819CF400FBFBF0 /* libiconv.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +77,11 @@
 		F951573915819BD500FBFBF0 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		F951573A15819BD500FBFBF0 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		F951573B15819BD500FBFBF0 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		F951574115819CD000FBFBF0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F951574315819CD600FBFBF0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F951574515819CDD00FBFBF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F951574715819CE300FBFBF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F951574915819CF400FBFBF0 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F951574A15819CF400FBFBF0 /* libiconv.dylib in Frameworks */,
+				F951574815819CE300FBFBF0 /* QuartzCore.framework in Frameworks */,
+				F951574615819CDD00FBFBF0 /* CoreVideo.framework in Frameworks */,
+				F951574415819CD600FBFBF0 /* CoreMedia.framework in Frameworks */,
+				F951574215819CD000FBFBF0 /* AVFoundation.framework in Frameworks */,
 				F95156F71581989F00FBFBF0 /* UIKit.framework in Frameworks */,
 				F95156F91581989F00FBFBF0 /* Foundation.framework in Frameworks */,
 				F95156FB1581989F00FBFBF0 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +107,11 @@
 		F95156E71581989F00FBFBF0 = {
 			isa = PBXGroup;
 			children = (
+				F951574915819CF400FBFBF0 /* libiconv.dylib */,
+				F951574715819CE300FBFBF0 /* QuartzCore.framework */,
+				F951574515819CDD00FBFBF0 /* CoreVideo.framework */,
+				F951574315819CD600FBFBF0 /* CoreMedia.framework */,
+				F951574115819CD000FBFBF0 /* AVFoundation.framework */,
 				F95156FC1581989F00FBFBF0 /* iQrave */,
 				F95156F51581989F00FBFBF0 /* Frameworks */,
 				F95156F31581989F00FBFBF0 /* Products */,

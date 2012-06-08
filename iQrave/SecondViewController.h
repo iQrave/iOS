@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZBarSDK.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <ZBarReaderViewDelegate>
+-(void) showQRReader;
 
 @end
