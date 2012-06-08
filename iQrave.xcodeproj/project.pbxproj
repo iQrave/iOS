@@ -30,6 +30,7 @@
 		F951574615819CDD00FBFBF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574515819CDD00FBFBF0 /* CoreVideo.framework */; };
 		F951574815819CE300FBFBF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574715819CE300FBFBF0 /* QuartzCore.framework */; };
 		F951574A15819CF400FBFBF0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574915819CF400FBFBF0 /* libiconv.dylib */; };
+		F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		F951574515819CDD00FBFBF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		F951574715819CE300FBFBF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F951574915819CF400FBFBF0 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d90e4a46265b4a3f949382332ba907d0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +109,6 @@
 		F95156E71581989F00FBFBF0 = {
 			isa = PBXGroup;
 			children = (
-				F951574915819CF400FBFBF0 /* libiconv.dylib */,
-				F951574715819CE300FBFBF0 /* QuartzCore.framework */,
-				F951574515819CDD00FBFBF0 /* CoreVideo.framework */,
-				F951574315819CD600FBFBF0 /* CoreMedia.framework */,
-				F951574115819CD000FBFBF0 /* AVFoundation.framework */,
 				F95156FC1581989F00FBFBF0 /* iQrave */,
 				F95156F51581989F00FBFBF0 /* Frameworks */,
 				F95156F31581989F00FBFBF0 /* Products */,
@@ -129,6 +126,11 @@
 		F95156F51581989F00FBFBF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F951574915819CF400FBFBF0 /* libiconv.dylib */,
+				F951574715819CE300FBFBF0 /* QuartzCore.framework */,
+				F951574515819CDD00FBFBF0 /* CoreVideo.framework */,
+				F951574315819CD600FBFBF0 /* CoreMedia.framework */,
+				F951574115819CD000FBFBF0 /* AVFoundation.framework */,
 				F95156F61581989F00FBFBF0 /* UIKit.framework */,
 				F95156F81581989F00FBFBF0 /* Foundation.framework */,
 				F95156FA1581989F00FBFBF0 /* CoreGraphics.framework */,
@@ -139,6 +141,7 @@
 		F95156FC1581989F00FBFBF0 /* iQrave */ = {
 			isa = PBXGroup;
 			children = (
+				F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */,
 				F951571E15819BD500FBFBF0 /* ZBarSDK */,
 				F95157051581989F00FBFBF0 /* AppDelegate.h */,
 				F95157061581989F00FBFBF0 /* AppDelegate.m */,
@@ -291,6 +294,7 @@
 				F951573E15819BD500FBFBF0 /* zbar-help.html in Resources */,
 				F951573F15819BD500FBFBF0 /* zbar-helpicons.png in Resources */,
 				F951574015819BD500FBFBF0 /* zbar-samples.png in Resources */,
+				F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				F951571D158198A000FBFBF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
