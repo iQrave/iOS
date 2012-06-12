@@ -30,6 +30,8 @@
 		F951574615819CDD00FBFBF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574515819CDD00FBFBF0 /* CoreVideo.framework */; };
 		F951574815819CE300FBFBF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574715819CE300FBFBF0 /* QuartzCore.framework */; };
 		F951574A15819CF400FBFBF0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574915819CF400FBFBF0 /* libiconv.dylib */; };
+		F95347701586BFF500DC6EB6 /* ScannedData.m in Sources */ = {isa = PBXBuildFile; fileRef = F953476F1586BFF500DC6EB6 /* ScannedData.m */; };
+		F95347771586C18200DC6EB6 /* ScanDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95347761586C18200DC6EB6 /* ScanDataViewController.m */; };
 		F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,10 @@
 		F951574515819CDD00FBFBF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		F951574715819CE300FBFBF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F951574915819CF400FBFBF0 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F953476E1586BFF400DC6EB6 /* ScannedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannedData.h; sourceTree = "<group>"; };
+		F953476F1586BFF500DC6EB6 /* ScannedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannedData.m; sourceTree = "<group>"; };
+		F95347751586C18200DC6EB6 /* ScanDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDataViewController.h; sourceTree = "<group>"; };
+		F95347761586C18200DC6EB6 /* ScanDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanDataViewController.m; sourceTree = "<group>"; };
 		F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d90e4a46265b4a3f949382332ba907d0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +161,10 @@
 				F9515715158198A000FBFBF0 /* second.png */,
 				F9515717158198A000FBFBF0 /* second@2x.png */,
 				F95156FD1581989F00FBFBF0 /* Supporting Files */,
+				F953476E1586BFF400DC6EB6 /* ScannedData.h */,
+				F953476F1586BFF500DC6EB6 /* ScannedData.m */,
+				F95347751586C18200DC6EB6 /* ScanDataViewController.h */,
+				F95347761586C18200DC6EB6 /* ScanDataViewController.m */,
 			);
 			path = iQrave;
 			sourceTree = "<group>";
@@ -309,6 +319,8 @@
 				F95157071581989F00FBFBF0 /* AppDelegate.m in Sources */,
 				F951570D1581989F00FBFBF0 /* FirstViewController.m in Sources */,
 				F9515714158198A000FBFBF0 /* SecondViewController.m in Sources */,
+				F95347701586BFF500DC6EB6 /* ScannedData.m in Sources */,
+				F95347771586C18200DC6EB6 /* ScanDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
