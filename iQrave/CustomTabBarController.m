@@ -1,22 +1,18 @@
 //
-//  ScanDataViewController.m
+//  CustomTabBarController.m
 //  iQrave
 //
-//  Created by Andrew Rauh on 6/11/12.
+//  Created by Andrew Rauh on 6/14/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ScanDataViewController.h"
-#import "ScannedData.h"
+#import "CustomTabBarController.h"
 
-@interface ScanDataViewController ()
-
-@property (strong, nonatomic) IBOutlet  UIImageView *labView;
+@interface CustomTabBarController ()
 
 @end
 
-@implementation ScanDataViewController
-@synthesize scannedDataLabel, labView;
+@implementation CustomTabBarController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,22 +25,7 @@
 
 - (void)viewDidLoad
 {
-    
-    ScannedData *scannedData =[ScannedData sharedInstance];
-    [scannedDataLabel setText:scannedData.scannedDataString];
-    
-//    if ([scannedData.scannedDataString isEqualToString:@"Lab Cafe - Ann Arbor"]) {
-//        
-//        
-//    }
-//    
-//    else {
-        //labView.hidden = YES;
-        
-   // }
-    
-    
-    
+    [self setSelectedViewController:[self.viewControllers objectAtIndex:1]];
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

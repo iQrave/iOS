@@ -99,7 +99,13 @@
     for(ZBarSymbol *sym in syms) {
         resultText.text = sym.data;
         scannedData.scannedDataString = sym.data;
-        [self performSegueWithIdentifier:@"data" sender:nil];
+        
+        //if ([scannedData.scannedDataString isEqualToString:@"Lab Cafe - Ann Arbor"]) {
+            
+            [self performSegueWithIdentifier:@"data" sender:nil];
+
+            
+       // }
         //NSLog(@"%@", sym.data);
         break;        
         
