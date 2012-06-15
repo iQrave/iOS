@@ -43,6 +43,9 @@
 		F9D156D2158AA497004D8B8A /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D1158AA497004D8B8A /* 162-receipt.png */; };
 		F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D3158AA4F8004D8B8A /* 111-user.png */; };
 		F9D156E0158AC33D004D8B8A /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156DF158AC33D004D8B8A /* PullRefreshTableViewController.m */; };
+		F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EA158ACA4F004D8B8A /* capture-button.png */; };
+		F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */; };
+		F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +118,10 @@
 		F9D156E7158AC756004D8B8A /* GANTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GANTracker.h; path = ../GANTracker.h; sourceTree = "<group>"; };
 		F9D156E8158AC756004D8B8A /* libGoogleAnalytics_NoThumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics_NoThumb.a; sourceTree = "<group>"; };
 		F9D156E9158AC756004D8B8A /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		F9D156EA158ACA4F004D8B8A /* capture-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture-button.png"; sourceTree = "<group>"; };
+		F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture-button@2x.png"; sourceTree = "<group>"; };
+		F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +275,8 @@
 		F9D156E5158AC6D6004D8B8A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F9D156EA158ACA4F004D8B8A /* capture-button.png */,
+				F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */,
 				F951570E1581989F00FBFBF0 /* first.png */,
 				F95157101581989F00FBFBF0 /* first@2x.png */,
 				F9515715158198A000FBFBF0 /* second.png */,
@@ -296,6 +305,8 @@
 				F951570C1581989F00FBFBF0 /* FirstViewController.m */,
 				F9515712158198A000FBFBF0 /* SecondViewController.h */,
 				F9515713158198A000FBFBF0 /* SecondViewController.m */,
+				F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */,
+				F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -369,6 +380,8 @@
 				F9D156CF158AA3CB004D8B8A /* 86-camera.png in Resources */,
 				F9D156D2158AA497004D8B8A /* 162-receipt.png in Resources */,
 				F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */,
+				F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */,
+				F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +400,7 @@
 				F95347771586C18200DC6EB6 /* ScanDataViewController.m in Sources */,
 				F916D8CF158A75BD00ED9D28 /* CustomTabBarController.m in Sources */,
 				F9D156E0158AC33D004D8B8A /* PullRefreshTableViewController.m in Sources */,
+				F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
