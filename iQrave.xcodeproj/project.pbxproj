@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F916D6FB158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F916D6FA158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg */; };
+		F916D8CF158A75BD00ED9D28 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F916D8CE158A75BD00ED9D28 /* CustomTabBarController.m */; };
 		F95156F71581989F00FBFBF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156F61581989F00FBFBF0 /* UIKit.framework */; };
 		F95156F91581989F00FBFBF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156F81581989F00FBFBF0 /* Foundation.framework */; };
 		F95156FB1581989F00FBFBF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F95156FA1581989F00FBFBF0 /* CoreGraphics.framework */; };
@@ -30,10 +32,26 @@
 		F951574615819CDD00FBFBF0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574515819CDD00FBFBF0 /* CoreVideo.framework */; };
 		F951574815819CE300FBFBF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574715819CE300FBFBF0 /* QuartzCore.framework */; };
 		F951574A15819CF400FBFBF0 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F951574915819CF400FBFBF0 /* libiconv.dylib */; };
+		F95347701586BFF500DC6EB6 /* ScannedData.m in Sources */ = {isa = PBXBuildFile; fileRef = F953476F1586BFF500DC6EB6 /* ScannedData.m */; };
+		F95347771586C18200DC6EB6 /* ScanDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95347761586C18200DC6EB6 /* ScanDataViewController.m */; };
+		F95347791586F8FB00DC6EB6 /* coffee-bean-bsp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95347781586F8FB00DC6EB6 /* coffee-bean-bsp.jpg */; };
+		F953477B1586FA2800DC6EB6 /* lab.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F953477A1586FA2800DC6EB6 /* lab.jpeg */; };
+		F953477D15879FDD00DC6EB6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F953477C15879FDD00DC6EB6 /* icon.png */; };
+		F953477F1587A16500DC6EB6 /* iQrave!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F953477E1587A16400DC6EB6 /* iQrave!.jpg */; };
 		F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */; };
+		F9D156CF158AA3CB004D8B8A /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156CE158AA3CB004D8B8A /* 86-camera.png */; };
+		F9D156D2158AA497004D8B8A /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D1158AA497004D8B8A /* 162-receipt.png */; };
+		F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D3158AA4F8004D8B8A /* 111-user.png */; };
+		F9D156E0158AC33D004D8B8A /* PullRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156DF158AC33D004D8B8A /* PullRefreshTableViewController.m */; };
+		F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EA158ACA4F004D8B8A /* capture-button.png */; };
+		F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */; };
+		F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F916D6FA158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "581114_10151131992283066_1933427053_n-1.jpeg"; sourceTree = "<group>"; };
+		F916D8CD158A75BD00ED9D28 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		F916D8CE158A75BD00ED9D28 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
 		F95156F21581989F00FBFBF0 /* iQrave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQrave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95156F61581989F00FBFBF0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F95156F81581989F00FBFBF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,7 +101,27 @@
 		F951574515819CDD00FBFBF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		F951574715819CE300FBFBF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F951574915819CF400FBFBF0 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F953476E1586BFF400DC6EB6 /* ScannedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannedData.h; sourceTree = "<group>"; };
+		F953476F1586BFF500DC6EB6 /* ScannedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannedData.m; sourceTree = "<group>"; };
+		F95347751586C18200DC6EB6 /* ScanDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDataViewController.h; sourceTree = "<group>"; };
+		F95347761586C18200DC6EB6 /* ScanDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanDataViewController.m; sourceTree = "<group>"; };
+		F95347781586F8FB00DC6EB6 /* coffee-bean-bsp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coffee-bean-bsp.jpg"; sourceTree = "<group>"; };
+		F953477A1586FA2800DC6EB6 /* lab.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lab.jpeg; sourceTree = "<group>"; };
+		F953477C15879FDD00DC6EB6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F953477E1587A16400DC6EB6 /* iQrave!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iQrave!.jpg"; sourceTree = "<group>"; };
 		F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d90e4a46265b4a3f949382332ba907d0.jpg; sourceTree = "<group>"; };
+		F9D156CE158AA3CB004D8B8A /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		F9D156D1158AA497004D8B8A /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
+		F9D156D3158AA4F8004D8B8A /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
+		F9D156DE158AC33D004D8B8A /* PullRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullRefreshTableViewController.h; sourceTree = "<group>"; };
+		F9D156DF158AC33D004D8B8A /* PullRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullRefreshTableViewController.m; sourceTree = "<group>"; };
+		F9D156E7158AC756004D8B8A /* GANTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GANTracker.h; path = ../GANTracker.h; sourceTree = "<group>"; };
+		F9D156E8158AC756004D8B8A /* libGoogleAnalytics_NoThumb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics_NoThumb.a; sourceTree = "<group>"; };
+		F9D156E9158AC756004D8B8A /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		F9D156EA158ACA4F004D8B8A /* capture-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture-button.png"; sourceTree = "<group>"; };
+		F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture-button@2x.png"; sourceTree = "<group>"; };
+		F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +164,8 @@
 		F95156F51581989F00FBFBF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F9D156E8158AC756004D8B8A /* libGoogleAnalytics_NoThumb.a */,
+				F9D156E9158AC756004D8B8A /* libGoogleAnalytics.a */,
 				F951574915819CF400FBFBF0 /* libiconv.dylib */,
 				F951574715819CE300FBFBF0 /* QuartzCore.framework */,
 				F951574515819CDD00FBFBF0 /* CoreVideo.framework */,
@@ -141,20 +181,17 @@
 		F95156FC1581989F00FBFBF0 /* iQrave */ = {
 			isa = PBXGroup;
 			children = (
-				F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */,
+				F9D156E6158AC6FC004D8B8A /* ViewControllers */,
+				F9D156E5158AC6D6004D8B8A /* images */,
+				F9D156DE158AC33D004D8B8A /* PullRefreshTableViewController.h */,
+				F9D156DF158AC33D004D8B8A /* PullRefreshTableViewController.m */,
 				F951571E15819BD500FBFBF0 /* ZBarSDK */,
 				F95157051581989F00FBFBF0 /* AppDelegate.h */,
 				F95157061581989F00FBFBF0 /* AppDelegate.m */,
 				F95157081581989F00FBFBF0 /* MainStoryboard.storyboard */,
-				F951570B1581989F00FBFBF0 /* FirstViewController.h */,
-				F951570C1581989F00FBFBF0 /* FirstViewController.m */,
-				F951570E1581989F00FBFBF0 /* first.png */,
-				F95157101581989F00FBFBF0 /* first@2x.png */,
-				F9515712158198A000FBFBF0 /* SecondViewController.h */,
-				F9515713158198A000FBFBF0 /* SecondViewController.m */,
-				F9515715158198A000FBFBF0 /* second.png */,
-				F9515717158198A000FBFBF0 /* second@2x.png */,
 				F95156FD1581989F00FBFBF0 /* Supporting Files */,
+				F953476E1586BFF400DC6EB6 /* ScannedData.h */,
+				F953476F1586BFF500DC6EB6 /* ScannedData.m */,
 			);
 			path = iQrave;
 			sourceTree = "<group>";
@@ -162,6 +199,7 @@
 		F95156FD1581989F00FBFBF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F9D156E7158AC756004D8B8A /* GANTracker.h */,
 				F95156FE1581989F00FBFBF0 /* iQrave-Info.plist */,
 				F95156FF1581989F00FBFBF0 /* InfoPlist.strings */,
 				F95157021581989F00FBFBF0 /* main.m */,
@@ -234,6 +272,45 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		F9D156E5158AC6D6004D8B8A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F9D156EA158ACA4F004D8B8A /* capture-button.png */,
+				F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */,
+				F951570E1581989F00FBFBF0 /* first.png */,
+				F95157101581989F00FBFBF0 /* first@2x.png */,
+				F9515715158198A000FBFBF0 /* second.png */,
+				F9515717158198A000FBFBF0 /* second@2x.png */,
+				F9D156D3158AA4F8004D8B8A /* 111-user.png */,
+				F9D156D1158AA497004D8B8A /* 162-receipt.png */,
+				F9D156CE158AA3CB004D8B8A /* 86-camera.png */,
+				F916D6FA158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg */,
+				F953477E1587A16400DC6EB6 /* iQrave!.jpg */,
+				F953477C15879FDD00DC6EB6 /* icon.png */,
+				F953477A1586FA2800DC6EB6 /* lab.jpeg */,
+				F95347781586F8FB00DC6EB6 /* coffee-bean-bsp.jpg */,
+				F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F9D156E6158AC6FC004D8B8A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F95347751586C18200DC6EB6 /* ScanDataViewController.h */,
+				F916D8CD158A75BD00ED9D28 /* CustomTabBarController.h */,
+				F916D8CE158A75BD00ED9D28 /* CustomTabBarController.m */,
+				F95347761586C18200DC6EB6 /* ScanDataViewController.m */,
+				F951570B1581989F00FBFBF0 /* FirstViewController.h */,
+				F951570C1581989F00FBFBF0 /* FirstViewController.m */,
+				F9515712158198A000FBFBF0 /* SecondViewController.h */,
+				F9515713158198A000FBFBF0 /* SecondViewController.m */,
+				F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */,
+				F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +372,16 @@
 				F951573F15819BD500FBFBF0 /* zbar-helpicons.png in Resources */,
 				F951574015819BD500FBFBF0 /* zbar-samples.png in Resources */,
 				F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */,
+				F95347791586F8FB00DC6EB6 /* coffee-bean-bsp.jpg in Resources */,
+				F953477B1586FA2800DC6EB6 /* lab.jpeg in Resources */,
+				F953477D15879FDD00DC6EB6 /* icon.png in Resources */,
+				F953477F1587A16500DC6EB6 /* iQrave!.jpg in Resources */,
+				F916D6FB158A73B300ED9D28 /* 581114_10151131992283066_1933427053_n-1.jpeg in Resources */,
+				F9D156CF158AA3CB004D8B8A /* 86-camera.png in Resources */,
+				F9D156D2158AA497004D8B8A /* 162-receipt.png in Resources */,
+				F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */,
+				F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */,
+				F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +396,11 @@
 				F95157071581989F00FBFBF0 /* AppDelegate.m in Sources */,
 				F951570D1581989F00FBFBF0 /* FirstViewController.m in Sources */,
 				F9515714158198A000FBFBF0 /* SecondViewController.m in Sources */,
+				F95347701586BFF500DC6EB6 /* ScannedData.m in Sources */,
+				F95347771586C18200DC6EB6 /* ScanDataViewController.m in Sources */,
+				F916D8CF158A75BD00ED9D28 /* CustomTabBarController.m in Sources */,
+				F9D156E0158AC33D004D8B8A /* PullRefreshTableViewController.m in Sources */,
+				F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
