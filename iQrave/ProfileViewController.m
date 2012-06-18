@@ -11,10 +11,13 @@
 
 @interface ProfileViewController ()
 
+@property (strong,nonatomic) ChangeUserPictureViewController *picChange;
+
 @end
 
 @implementation ProfileViewController
-@synthesize contentScrollView;
+
+@synthesize contentScrollView, picChange;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,18 +30,20 @@
 
 - (void)viewDidLoad
 {
+    
     contentScrollView.pagingEnabled = YES;
     contentScrollView.contentSize = CGSizeMake(320, 1000);
     [super viewDidLoad];
+
     
     
 }
 
 - (IBAction)changeUserPicture:(id)sender {
     
-    ChangeUserPictureViewController *picChange = [[ChangeUserPictureViewController alloc] init];
-    
-    picChange.view.frame = CGRectMake(200, 300, 200, 300);
+    picChange = [[ChangeUserPictureViewController alloc] init];
+    picChange.delegate = self;
+    picChange.view.frame = CGRectMake(200, 300, 250, 200);
     
     //picChange.view.frame.size = CGSizeMake(200, 300);
     picChange.view.center = self.view.center;
@@ -49,7 +54,11 @@
 }
 
 
-
+- (void)dismissView {
+    
+    [self.picChange.view setHidden:YES];
+    
+}
 
 
 - (void)viewDidUnload
