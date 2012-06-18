@@ -11,4 +11,6 @@
 @interface ProfileViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *contentScrollView;
 
+- (IBAction)changeUserPicture:(id)sender;
+
 @end

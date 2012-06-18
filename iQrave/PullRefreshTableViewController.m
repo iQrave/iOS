@@ -157,16 +157,20 @@
         [refreshArrow layer].transform = CATransform3DMakeRotation(M_PI * 2, 0, 0, 1);
     } 
                      completion:^(BOOL finished) {
-                         [self performSelector:@selector(stopLoadingComplete:finished:context:)];
+                         //[self performSelector:@selector(stopLoadingComplete:finished:context:)];
+                         [refreshSpinner stopAnimating];
+                         refreshArrow.hidden = NO;
+                         refreshLabel.text = self.textPull;
+                         
                      }];
 }
 
-- (void)stopLoadingComplete:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
-    // Reset the header
-    refreshLabel.text = self.textPull;
-    refreshArrow.hidden = NO;
-    [refreshSpinner stopAnimating];
-}
+//- (void)stopLoadingComplete:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context {
+//    // Reset the header
+//    refreshLabel.text = self.textPull;
+//    refreshArrow.hidden = NO;
+//    [refreshSpinner stopAnimating];
+//}
 
 - (void)refresh {
     // This is just a demo. Override this method with your custom reload action.
