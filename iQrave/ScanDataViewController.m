@@ -10,13 +10,14 @@
 #import "ScannedData.h"
 
 @interface ScanDataViewController ()
+@property (strong, nonatomic) IBOutlet  UIScrollView *topScrollView; 
 
 @property (strong, nonatomic) IBOutlet  UIImageView *labView;
 
 @end
 
 @implementation ScanDataViewController
-@synthesize scannedDataLabel, labView;
+@synthesize scannedDataLabel, labView, topScrollView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +30,7 @@
 
 - (void)viewDidLoad
 {
-    
+    topScrollView.contentSize = CGSizeMake(960, 200);
     ScannedData *scannedData =[ScannedData sharedInstance];
     [scannedDataLabel setText:scannedData.scannedDataString];
     

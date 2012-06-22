@@ -6,11 +6,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Me-->
+        <!--Profile View Controller - Me-->
         <scene sceneID="2f6-N9-qxq">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1vO-1Y-tpP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="hdA-1c-GCt" sceneMemberID="viewController">
+                <viewController id="hdA-1c-GCt" customClass="ProfileViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="och-bF-WVr">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -18,6 +18,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="581114_10151131992283066_1933427053_n-1.jpeg" id="LEf-C4-6Ut">
                                 <rect key="frame" x="0.0" y="-83" width="320" height="337"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.80000001192092896" green="0.80000001192092896" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <view contentMode="scaleToFill" id="4hB-ob-UD7">
                                 <rect key="frame" x="0.0" y="140" width="320" height="58"/>
@@ -33,24 +34,65 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.20000000298023224" green="0.20000000298023224" blue="0.20000000298023224" alpha="0.89000000000000001" colorSpace="calibratedRGB"/>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" id="WwV-vB-Hsz">
-                                <rect key="frame" x="0.0" y="198" width="364" height="213"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <view contentMode="scaleToFill" id="Qjr-mv-Wt7">
+                                <rect key="frame" x="-2" y="198" width="322" height="146"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" id="fcZ-aw-DJp">
-                                        <rect key="frame" x="0.0" y="0.0" width="321" height="213"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Screen Shot 2012-06-18 at 12.57.22 AM.png" id="gW5-O9-hdF">
+                                        <rect key="frame" x="194" y="10" width="121" height="126"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
-                            </scrollView>
+                                <color key="backgroundColor" red="0.60000002384185791" green="0.60000002384185791" blue="0.60000002384185791" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="300 scans" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="gZJ-jh-hlT">
+                                <rect key="frame" x="8" y="208" width="78" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" id="0Tk-Tx-2Ic">
+                                <rect key="frame" x="8" y="373" width="322" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="e47-gs-2xq">
+                                <rect key="frame" x="288" y="7" width="32" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="86-camera.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeUserPicture:" destination="hdA-1c-GCt" eventType="touchUpInside" id="cfQ-OV-Abl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Me" image="111-user.png" id="8pR-bu-Zhu"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="282" y="1145"/>
+            <point key="canvasLocation" x="167" y="1115"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MwJ-Qq-nHU">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K1f-Fe-ETp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="VPf-NY-Ixz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dut-Ui-cHu">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-441" y="1205"/>
         </scene>
         <!--Second View Controller - Second-->
         <scene sceneID="13">
@@ -94,6 +136,57 @@
                 </navigationController>
             </objects>
             <point key="canvasLocation" x="744" y="616"/>
+        </scene>
+        <!--Navigation Controller - History-->
+        <scene sceneID="EkD-Ny-z0d">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emM-Fa-xwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="nyw-xW-xNT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="History" image="162-receipt.png" id="2dK-ih-mjo"/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cEM-qn-tzF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="h1D-bu-Ohl" kind="relationship" relationship="rootViewController" id="GwT-CA-P7V"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="647" y="-91"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3vL-ez-Y1M">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3IC-LJ-Ddw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="qzJ-aX-s7J" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LYJ-Xr-4J0">
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="lab.jpeg" id="n9i-PO-zvi">
+                                <rect key="frame" x="0.0" y="0.0" width="342" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="A0E-iZ-tex">
+                                <rect key="frame" x="0.0" y="129" width="320" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="TEST" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="jDa-uc-Jb9">
+                                        <rect key="frame" x="26" y="-7" width="256" height="87"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.51000000000000001" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fbD-Cx-5Ql"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2329" y="-347"/>
         </scene>
         <!--Scan Data View Controller-->
         <scene sceneID="7JS-Tw-E4b">
@@ -150,7 +243,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1768" y="616"/>
+            <point key="canvasLocation" x="2576" y="312"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="15">
@@ -164,7 +257,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="h1D-bu-Ohl" kind="relationship" relationship="viewControllers" id="mJb-aK-SMk"/>
+                        <segue destination="nyw-xW-xNT" kind="relationship" relationship="viewControllers" id="DPS-5q-Wca"/>
                         <segue destination="JCf-jV-Atl" kind="relationship" relationship="viewControllers" id="ePh-0b-vd6"/>
                         <segue destination="hdA-1c-GCt" kind="relationship" relationship="viewControllers" id="xaB-J6-3AZ"/>
                     </connections>
@@ -172,23 +265,23 @@
             </objects>
             <point key="canvasLocation" x="-26" y="226"/>
         </scene>
-        <!--Table View Controller - History-->
+        <!--History Table View Controller - History-->
         <scene sceneID="eqg-0I-B9l">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X9e-Yl-ay0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="h1D-bu-Ohl" sceneMemberID="viewController">
+                <tableViewController id="h1D-bu-Ohl" customClass="HistoryTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rZl-06-b3h">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection id="uR8-MV-xFR">
+                            <tableViewSection id="4Y1-VZ-ZdQ">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" rowHeight="165" id="VO9-tA-NPV">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="165" id="VO9-tA-NPV">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="164"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="d90e4a46265b4a3f949382332ba907d0.jpg" id="iMb-Rx-2oY">
@@ -206,6 +299,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="qzJ-aX-s7J" kind="push" identifier="historyDataView" id="svw-lE-YAy"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="WXK-Ss-EH2" detailTextLabel="OAd-AK-vbh" rowHeight="62" style="IBUITableViewCellStyleValue1" id="2kI-so-CEd">
                                         <rect key="frame" x="0.0" y="165" width="320" height="62"/>
@@ -320,118 +416,10 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="History" image="162-receipt.png" id="WmL-Gy-rJg"/>
+                    <navigationItem key="navigationItem" id="lHO-b2-C42"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="616" y="-132"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="KL8-mj-K94">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NSf-Nv-N6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="mtZ-TN-xBF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="o1A-ZD-3hA">
-                        <rect key="frame" x="0.0" y="0.0" width="260" height="350"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="O8z-aX-MOt">
-                                <rect key="frame" x="0.0" y="59" width="390" height="180"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EqH-Gg-HBY">
-                                        <rect key="frame" x="28" y="10" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cb9-Aj-Qee">
-                                        <rect key="frame" x="28" y="92" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Psa-Fg-b4v">
-                                        <rect key="frame" x="127" y="10" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3OI-9Y-OB0">
-                                        <rect key="frame" x="127" y="92" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AYx-wD-1Zg">
-                                        <rect key="frame" x="222" y="92" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kd8-zj-lOy">
-                                        <rect key="frame" x="358" y="44" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ElT-Ey-TXq">
-                                        <rect key="frame" x="222" y="10" width="72" height="68"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal">
-                                            <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <state key="highlighted">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
-                        <gestureRecognizers/>
-                    </view>
-                    <nil key="simulatedStatusBarMetrics"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="1212" y="-122"/>
+            <point key="canvasLocation" x="1620" y="-260"/>
         </scene>
     </scenes>
     <resources>
@@ -439,6 +427,7 @@
         <image name="162-receipt.png" width="17" height="23"/>
         <image name="581114_10151131992283066_1933427053_n-1.jpeg" width="377" height="513"/>
         <image name="86-camera.png" width="24" height="18"/>
+        <image name="Screen Shot 2012-06-18 at 12.57.22 AM.png" width="222" height="300"/>
         <image name="coffee-bean-bsp.jpg" width="500" height="332"/>
         <image name="d90e4a46265b4a3f949382332ba907d0.jpg" width="575" height="476"/>
         <image name="lab.jpeg" width="720" height="480"/>
@@ -447,11 +436,25 @@
         <class className="CustomTabBarController" superclassName="UITabBarController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CustomTabBarController.h"/>
         </class>
+        <class className="HistoryTableViewController" superclassName="PullRefreshTableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HistoryTableViewController.h"/>
+        </class>
+        <class className="ProfileViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ProfileViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="changeUserPicture:"/>
+                <relationship kind="outlet" name="contentScrollView" candidateClass="UIScrollView"/>
+            </relationships>
+        </class>
+        <class className="PullRefreshTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PullRefreshTableViewController.h"/>
+        </class>
         <class className="ScanDataViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ScanDataViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="labView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="scannedDataLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="topScrollView" candidateClass="UIScrollView"/>
             </relationships>
         </class>
         <class className="SecondViewController" superclassName="UIViewController">
