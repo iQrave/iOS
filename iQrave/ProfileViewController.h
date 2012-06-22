@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChangeUserPictureViewController.h"
+@interface ProfileViewController : UIViewController <dismissSubView>
 
-@interface ProfileViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *contentScrollView;
+
+- (IBAction)changeUserPicture:(id)sender;
 
 @end

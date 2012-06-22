@@ -39,6 +39,8 @@
 		F953477D15879FDD00DC6EB6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F953477C15879FDD00DC6EB6 /* icon.png */; };
 		F953477F1587A16500DC6EB6 /* iQrave!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F953477E1587A16400DC6EB6 /* iQrave!.jpg */; };
 		F9A938571581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */; };
+		F9AC6A87158EF37500B63EFC /* ChangeUserPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AC6A85158EF37500B63EFC /* ChangeUserPictureViewController.m */; };
+		F9AC6A88158EF37500B63EFC /* ChangeUserPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9AC6A86158EF37500B63EFC /* ChangeUserPictureViewController.xib */; };
 		F9D156CF158AA3CB004D8B8A /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156CE158AA3CB004D8B8A /* 86-camera.png */; };
 		F9D156D2158AA497004D8B8A /* 162-receipt.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D1158AA497004D8B8A /* 162-receipt.png */; };
 		F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156D3158AA4F8004D8B8A /* 111-user.png */; };
@@ -46,6 +48,12 @@
 		F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EA158ACA4F004D8B8A /* capture-button.png */; };
 		F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */; };
 		F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */; };
+		F9D156F3158AF486004D8B8A /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156F2158AF484004D8B8A /* HistoryTableViewController.m */; };
+		F9D156F6158AF59C004D8B8A /* arrow1.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156F4158AF59C004D8B8A /* arrow1.png */; };
+		F9D156F7158AF59C004D8B8A /* arrow1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D156F5158AF59C004D8B8A /* arrow1@2x.png */; };
+		F9D156FA158AFE24004D8B8A /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D156F9158AFE24004D8B8A /* HistoryCell.m */; };
+		F9D156FC158AFEF1004D8B8A /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D156FB158AFEF0004D8B8A /* HistoryCell.xib */; };
+		F9DC625C158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DC625B158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +118,9 @@
 		F953477C15879FDD00DC6EB6 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F953477E1587A16400DC6EB6 /* iQrave!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iQrave!.jpg"; sourceTree = "<group>"; };
 		F9A938561581AE2100490E64 /* d90e4a46265b4a3f949382332ba907d0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d90e4a46265b4a3f949382332ba907d0.jpg; sourceTree = "<group>"; };
+		F9AC6A84158EF37500B63EFC /* ChangeUserPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeUserPictureViewController.h; sourceTree = "<group>"; };
+		F9AC6A85158EF37500B63EFC /* ChangeUserPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeUserPictureViewController.m; sourceTree = "<group>"; };
+		F9AC6A86158EF37500B63EFC /* ChangeUserPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangeUserPictureViewController.xib; sourceTree = "<group>"; };
 		F9D156CE158AA3CB004D8B8A /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
 		F9D156D1158AA497004D8B8A /* 162-receipt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "162-receipt.png"; sourceTree = "<group>"; };
 		F9D156D3158AA4F8004D8B8A /* 111-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user.png"; sourceTree = "<group>"; };
@@ -122,6 +133,14 @@
 		F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "capture-button@2x.png"; sourceTree = "<group>"; };
 		F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		F9D156F1158AF484004D8B8A /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		F9D156F2158AF484004D8B8A /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		F9D156F4158AF59C004D8B8A /* arrow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow1.png; sourceTree = "<group>"; };
+		F9D156F5158AF59C004D8B8A /* arrow1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow1@2x.png"; sourceTree = "<group>"; };
+		F9D156F8158AFE24004D8B8A /* HistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		F9D156F9158AFE24004D8B8A /* HistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		F9D156FB158AFEF0004D8B8A /* HistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		F9DC625B158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2012-06-18 at 12.57.22 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -275,6 +294,9 @@
 		F9D156E5158AC6D6004D8B8A /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F9DC625B158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png */,
+				F9D156F4158AF59C004D8B8A /* arrow1.png */,
+				F9D156F5158AF59C004D8B8A /* arrow1@2x.png */,
 				F9D156EA158ACA4F004D8B8A /* capture-button.png */,
 				F9D156EB158ACA4F004D8B8A /* capture-button@2x.png */,
 				F951570E1581989F00FBFBF0 /* first.png */,
@@ -307,6 +329,14 @@
 				F9515713158198A000FBFBF0 /* SecondViewController.m */,
 				F9D156EE158ACBB6004D8B8A /* ProfileViewController.h */,
 				F9D156EF158ACBB6004D8B8A /* ProfileViewController.m */,
+				F9D156F1158AF484004D8B8A /* HistoryTableViewController.h */,
+				F9D156F2158AF484004D8B8A /* HistoryTableViewController.m */,
+				F9D156F8158AFE24004D8B8A /* HistoryCell.h */,
+				F9D156FB158AFEF0004D8B8A /* HistoryCell.xib */,
+				F9D156F9158AFE24004D8B8A /* HistoryCell.m */,
+				F9AC6A84158EF37500B63EFC /* ChangeUserPictureViewController.h */,
+				F9AC6A85158EF37500B63EFC /* ChangeUserPictureViewController.m */,
+				F9AC6A86158EF37500B63EFC /* ChangeUserPictureViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -382,6 +412,11 @@
 				F9D156D4158AA4F8004D8B8A /* 111-user.png in Resources */,
 				F9D156EC158ACA4F004D8B8A /* capture-button.png in Resources */,
 				F9D156ED158ACA4F004D8B8A /* capture-button@2x.png in Resources */,
+				F9D156F6158AF59C004D8B8A /* arrow1.png in Resources */,
+				F9D156F7158AF59C004D8B8A /* arrow1@2x.png in Resources */,
+				F9D156FC158AFEF1004D8B8A /* HistoryCell.xib in Resources */,
+				F9DC625C158EECD200DC4BC0 /* Screen Shot 2012-06-18 at 12.57.22 AM.png in Resources */,
+				F9AC6A88158EF37500B63EFC /* ChangeUserPictureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +436,9 @@
 				F916D8CF158A75BD00ED9D28 /* CustomTabBarController.m in Sources */,
 				F9D156E0158AC33D004D8B8A /* PullRefreshTableViewController.m in Sources */,
 				F9D156F0158ACBB6004D8B8A /* ProfileViewController.m in Sources */,
+				F9D156F3158AF486004D8B8A /* HistoryTableViewController.m in Sources */,
+				F9D156FA158AFE24004D8B8A /* HistoryCell.m in Sources */,
+				F9AC6A87158EF37500B63EFC /* ChangeUserPictureViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

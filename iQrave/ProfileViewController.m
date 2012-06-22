@@ -7,12 +7,17 @@
 //
 
 #import "ProfileViewController.h"
+#import "ChangeUserPictureViewController.h"
 
 @interface ProfileViewController ()
+
+@property (strong,nonatomic) ChangeUserPictureViewController *picChange;
 
 @end
 
 @implementation ProfileViewController
+
+@synthesize contentScrollView, picChange;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,9 +31,35 @@
 - (void)viewDidLoad
 {
     
+    contentScrollView.pagingEnabled = YES;
+    contentScrollView.contentSize = CGSizeMake(320, 1000);
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+
+    
+    
 }
+
+- (IBAction)changeUserPicture:(id)sender {
+    
+    picChange = [[ChangeUserPictureViewController alloc] init];
+    picChange.delegate = self;
+    picChange.view.frame = CGRectMake(200, 300, 250, 200);
+    
+    //picChange.view.frame.size = CGSizeMake(200, 300);
+    picChange.view.center = self.view.center;
+    
+    [self.view addSubview:picChange.view];
+    
+    
+}
+
+
+- (void)dismissView {
+    
+    [self.picChange.view setHidden:YES];
+    
+}
+
 
 - (void)viewDidUnload
 {
